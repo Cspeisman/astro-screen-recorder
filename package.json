@@ -1,7 +1,6 @@
 {
   "name": "astro-screen-recorder",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.10",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
@@ -11,5 +10,35 @@
     "@types/node": "^20.10.8",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
-  }
+  },
+  "description": "astro dev toolbar button for screen recording",
+  "dependencies": {
+    "esbuild": "^0.19.11",
+    "nanoid": "^3.3.7",
+    "picocolors": "^1.0.0",
+    "fsevents": "^2.3.3",
+    "postcss": "^8.4.33",
+    "undici-types": "^5.26.5",
+    "source-map-js": "^1.0.2",
+    "rollup": "^4.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cspeisman/astro-screen-recorder.git"
+  },
+  "keywords": [
+    "astro",
+    "astro-integration",
+    "astro-toolbar",
+    "astro-dev-toolbar",
+    "astro-adapter",
+    "screen-recording",
+    "documentation"
+  ],
+  "author": "cspeisman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cspeisman/astro-screen-recorder/issues"
+  },
+  "homepage": "https://github.com/Cspeisman/astro-screen-recorder#readme"
 }

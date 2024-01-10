@@ -1,6 +1,6 @@
 import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-export const screenRecorder = () => {
+export default () => {
   return {
     name: "astro-screen-recorder",
     hooks: {
