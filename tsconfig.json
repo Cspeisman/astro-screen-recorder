@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // or any other ECMAScript version you prefer
+    "module": "es2020", // specify esmodule as the module type
+    "outDir": "./dist", // output directory for compiled files
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
